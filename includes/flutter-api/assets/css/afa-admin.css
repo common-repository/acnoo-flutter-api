@@ -1,0 +1,233 @@
+.afa-nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+
+.maanstore_input {
+	margin-bottom: 10px;
+	width: 400px !important;
+	padding: .857em 1.214em !important;
+	color: #818181 !important;
+	line-height: 1.286em !important;
+	outline: 0;
+	border: 0;
+	-webkit-appearance: none;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ddd;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07) !important;
+	transition: 50ms border-color ease-in-out;
+	font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	touch-action: manipulation;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.maanstore_button {
+	position: relative;
+	border: 0 none;
+	border-radius: 3px !important;
+	color: #fff !important;
+	display: inline-block;
+	font-family: 'Poppins', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+	margin-bottom: 21px;
+	margin-right: 10px;
+	line-height: 1;
+	padding: 12px 30px;
+	background: #185ADB !important;
+	-webkit-transition: all 0.21s ease;
+	-moz-transition: all 0.21s ease;
+	-o-transition: all 0.21s ease;
+	transition: all 0.21s ease;
+}
+
+.maanstore_title {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: .5em;
+	line-height: 1.1;
+	display: block;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.maanstore_list {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	list-style: none;
+}
+
+.maanstore_list li {
+	list-style-type: square;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 6px;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.maanstore_number_list li {
+	list-style-type: decimal;
+}
+
+.maanstore_link {
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #0099ff;
+	text-decoration: none;
+	outline: 0;
+	transition-property: border, background, color;
+	transition-duration: .05s;
+	transition-timing-function: ease-in-out;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.maanstore_table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1.236rem;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	display: table;
+	border-color: grey;
+}
+
+.maanstore_table a {
+	color: #0099ff;
+	text-decoration: none;
+}
+
+.maanstore_table th,
+.maanstore_table td {
+	text-align: left;
+}
+
+.maanstore_deactive_button {
+	background: #C84B31 !important;
+}
+
+#success_message {
+	background: rgb(1, 133, 1);
+	color: #fff;
+	padding: 10px 15px;
+	width: fit-content;
+	display: none;
+}
+
+/* Verification, Purchase code */
+.afa-verification p {
+	font-size: 18px;
+}
+
+.afa-verification ol li {
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.afa-verification h3 {
+	font-size: 20px;
+}
+
+.afa-verification .afa-card {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+.afa-verification p a {
+	text-decoration: none;
+	background: #df1bf5;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 4px;
+}
+
+.afa-verification-form input[type='text'] {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.afa-verification-form input[type='submit'] {
+	background-color: #df1bf5;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.afa-plugin-features-panel,
+.afa-feat-body {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.afa-feat-body {
+    padding-bottom: 40px;
+}
+
+.afa-item-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+	justify-content: center;
+}
+
+.afa-feat-title {
+    font-size: 18px;
+}
+
+.afa-item-panel h4 {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.afa-api-item {
+    background: #fffdfd;
+    padding: 0 25px;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+}
+
+.afa-submit-btn{
+	margin-top: 20px;
+	text-align: center;
+}
